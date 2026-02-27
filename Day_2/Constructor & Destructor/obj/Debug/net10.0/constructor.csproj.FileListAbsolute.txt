@@ -1,0 +1,14 @@
+D:\.NET Framework\constructor\obj\Debug\net10.0\constructor.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET Framework\constructor\obj\Debug\net10.0\constructor.AssemblyInfoInputs.cache
+D:\.NET Framework\constructor\obj\Debug\net10.0\constructor.AssemblyInfo.cs
+D:\.NET Framework\constructor\obj\Debug\net10.0\constructor.csproj.CoreCompileInputs.cache
+D:\.NET Framework\constructor\bin\Debug\net10.0\constructor.exe
+D:\.NET Framework\constructor\bin\Debug\net10.0\constructor.deps.json
+D:\.NET Framework\constructor\bin\Debug\net10.0\constructor.runtimeconfig.json
+D:\.NET Framework\constructor\bin\Debug\net10.0\constructor.dll
+D:\.NET Framework\constructor\bin\Debug\net10.0\constructor.pdb
+D:\.NET Framework\constructor\obj\Debug\net10.0\constructor.dll
+D:\.NET Framework\constructor\obj\Debug\net10.0\refint\constructor.dll
+D:\.NET Framework\constructor\obj\Debug\net10.0\constructor.pdb
+D:\.NET Framework\constructor\obj\Debug\net10.0\constructor.genruntimeconfig.cache
+D:\.NET Framework\constructor\obj\Debug\net10.0\ref\constructor.dll

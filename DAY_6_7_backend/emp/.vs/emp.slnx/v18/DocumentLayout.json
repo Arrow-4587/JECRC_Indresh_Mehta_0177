@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\emp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\EmployeeManagementSystem\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B8E7F1-AE77-467D-8739-FCC345C157D4}|emp.csproj|d:\\emp\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B8E7F1-AE77-467D-8739-FCC345C157D4}|emp.csproj|solutionrelative:employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B8E7F1-AE77-467D-8739-FCC345C157D4}|emp.csproj|d:\\emp\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B8E7F1-AE77-467D-8739-FCC345C157D4}|emp.csproj|solutionrelative:employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B8E7F1-AE77-467D-8739-FCC345C157D4}|emp.csproj|d:\\emp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B8E7F1-AE77-467D-8739-FCC345C157D4}|emp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\EmployeeManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "..\\EmployeeManagementSystem\\Program.cs",
+              "ToolTip": "D:\\EmployeeManagementSystem\\Program.cs",
+              "RelativeToolTip": "..\\EmployeeManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAQAAAAgMzMzMzMrwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T07:25:10.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\emp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\emp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T06:02:18.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "D:\\emp\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "EmployeeService.cs",
+              "ToolTip": "D:\\emp\\EmployeeService.cs",
+              "RelativeToolTip": "EmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T05:04:38.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeModel.cs",
+              "DocumentMoniker": "D:\\emp\\EmployeeModel.cs",
+              "RelativeDocumentMoniker": "EmployeeModel.cs",
+              "ToolTip": "D:\\emp\\EmployeeModel.cs",
+              "RelativeToolTip": "EmployeeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T04:54:02.157Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

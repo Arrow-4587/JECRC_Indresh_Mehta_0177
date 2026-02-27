@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Product_Assignment1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{23CF6CD3-5E61-4B2E-A8C3-8D6766807C65}|Product_Assignment1.csproj|d:\\product_assignment1\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23CF6CD3-5E61-4B2E-A8C3-8D6766807C65}|Product_Assignment1.csproj|solutionrelative:service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CF6CD3-5E61-4B2E-A8C3-8D6766807C65}|Product_Assignment1.csproj|d:\\product_assignment1\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23CF6CD3-5E61-4B2E-A8C3-8D6766807C65}|Product_Assignment1.csproj|solutionrelative:model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23CF6CD3-5E61-4B2E-A8C3-8D6766807C65}|Product_Assignment1.csproj|d:\\product_assignment1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23CF6CD3-5E61-4B2E-A8C3-8D6766807C65}|Product_Assignment1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Service.cs",
+              "DocumentMoniker": "D:\\Product_Assignment1\\Service.cs",
+              "RelativeDocumentMoniker": "Service.cs",
+              "ToolTip": "D:\\Product_Assignment1\\Service.cs",
+              "RelativeToolTip": "Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:36:57.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Model.cs",
+              "DocumentMoniker": "D:\\Product_Assignment1\\Model.cs",
+              "RelativeDocumentMoniker": "Model.cs",
+              "ToolTip": "D:\\Product_Assignment1\\Model.cs",
+              "RelativeToolTip": "Model.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:34:15.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Product_Assignment1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Product_Assignment1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:00:28.992Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

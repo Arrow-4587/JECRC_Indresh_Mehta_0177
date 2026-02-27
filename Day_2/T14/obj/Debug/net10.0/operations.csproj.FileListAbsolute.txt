@@ -1,0 +1,14 @@
+D:\.NET Framework\operations\bin\Debug\net10.0\operations.exe
+D:\.NET Framework\operations\bin\Debug\net10.0\operations.deps.json
+D:\.NET Framework\operations\bin\Debug\net10.0\operations.runtimeconfig.json
+D:\.NET Framework\operations\bin\Debug\net10.0\operations.dll
+D:\.NET Framework\operations\bin\Debug\net10.0\operations.pdb
+D:\.NET Framework\operations\obj\Debug\net10.0\operations.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET Framework\operations\obj\Debug\net10.0\operations.AssemblyInfoInputs.cache
+D:\.NET Framework\operations\obj\Debug\net10.0\operations.AssemblyInfo.cs
+D:\.NET Framework\operations\obj\Debug\net10.0\operations.csproj.CoreCompileInputs.cache
+D:\.NET Framework\operations\obj\Debug\net10.0\operations.dll
+D:\.NET Framework\operations\obj\Debug\net10.0\refint\operations.dll
+D:\.NET Framework\operations\obj\Debug\net10.0\operations.pdb
+D:\.NET Framework\operations\obj\Debug\net10.0\operations.genruntimeconfig.cache
+D:\.NET Framework\operations\obj\Debug\net10.0\ref\operations.dll
