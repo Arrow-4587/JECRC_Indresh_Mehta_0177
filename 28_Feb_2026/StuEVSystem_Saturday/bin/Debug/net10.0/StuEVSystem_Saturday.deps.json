@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "StuEVSystem_Saturday/1.0.0": {
+        "runtime": {
+          "StuEVSystem_Saturday.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StuEVSystem_Saturday/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

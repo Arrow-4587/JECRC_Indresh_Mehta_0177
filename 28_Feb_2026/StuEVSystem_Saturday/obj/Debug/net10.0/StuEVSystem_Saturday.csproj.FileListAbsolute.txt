@@ -1,0 +1,15 @@
+D:\Capgemini_dotnet\28_Feb_2026\StuEVSystem_Saturday\bin\Debug\net10.0\StuEVSystem_Saturday.exe
+D:\Capgemini_dotnet\28_Feb_2026\StuEVSystem_Saturday\bin\Debug\net10.0\StuEVSystem_Saturday.deps.json
+D:\Capgemini_dotnet\28_Feb_2026\StuEVSystem_Saturday\bin\Debug\net10.0\StuEVSystem_Saturday.runtimeconfig.json
+D:\Capgemini_dotnet\28_Feb_2026\StuEVSystem_Saturday\bin\Debug\net10.0\StuEVSystem_Saturday.dll
+D:\Capgemini_dotnet\28_Feb_2026\StuEVSystem_Saturday\bin\Debug\net10.0\StuEVSystem_Saturday.pdb
+D:\Capgemini_dotnet\28_Feb_2026\StuEVSystem_Saturday\obj\Debug\net10.0\StuEVSystem_Saturday.GeneratedMSBuildEditorConfig.editorconfig
+D:\Capgemini_dotnet\28_Feb_2026\StuEVSystem_Saturday\obj\Debug\net10.0\StuEVSystem_Saturday.AssemblyInfoInputs.cache
+D:\Capgemini_dotnet\28_Feb_2026\StuEVSystem_Saturday\obj\Debug\net10.0\StuEVSystem_Saturday.AssemblyInfo.cs
+D:\Capgemini_dotnet\28_Feb_2026\StuEVSystem_Saturday\obj\Debug\net10.0\StuEVSystem_Saturday.csproj.CoreCompileInputs.cache
+D:\Capgemini_dotnet\28_Feb_2026\StuEVSystem_Saturday\obj\Debug\net10.0\StuEVSystem_Saturday.sourcelink.json
+D:\Capgemini_dotnet\28_Feb_2026\StuEVSystem_Saturday\obj\Debug\net10.0\StuEVSystem_Saturday.dll
+D:\Capgemini_dotnet\28_Feb_2026\StuEVSystem_Saturday\obj\Debug\net10.0\refint\StuEVSystem_Saturday.dll
+D:\Capgemini_dotnet\28_Feb_2026\StuEVSystem_Saturday\obj\Debug\net10.0\StuEVSystem_Saturday.pdb
+D:\Capgemini_dotnet\28_Feb_2026\StuEVSystem_Saturday\obj\Debug\net10.0\StuEVSystem_Saturday.genruntimeconfig.cache
+D:\Capgemini_dotnet\28_Feb_2026\StuEVSystem_Saturday\obj\Debug\net10.0\ref\StuEVSystem_Saturday.dll
