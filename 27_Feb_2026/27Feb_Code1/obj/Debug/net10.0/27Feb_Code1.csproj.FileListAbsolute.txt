@@ -1,0 +1,15 @@
+D:\Capgemini_dotnet\27Feb_Code1\bin\Debug\net10.0\27Feb_Code1.exe
+D:\Capgemini_dotnet\27Feb_Code1\bin\Debug\net10.0\27Feb_Code1.deps.json
+D:\Capgemini_dotnet\27Feb_Code1\bin\Debug\net10.0\27Feb_Code1.runtimeconfig.json
+D:\Capgemini_dotnet\27Feb_Code1\bin\Debug\net10.0\27Feb_Code1.dll
+D:\Capgemini_dotnet\27Feb_Code1\bin\Debug\net10.0\27Feb_Code1.pdb
+D:\Capgemini_dotnet\27Feb_Code1\obj\Debug\net10.0\27Feb_Code1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Capgemini_dotnet\27Feb_Code1\obj\Debug\net10.0\27Feb_Code1.AssemblyInfoInputs.cache
+D:\Capgemini_dotnet\27Feb_Code1\obj\Debug\net10.0\27Feb_Code1.AssemblyInfo.cs
+D:\Capgemini_dotnet\27Feb_Code1\obj\Debug\net10.0\27Feb_Code1.csproj.CoreCompileInputs.cache
+D:\Capgemini_dotnet\27Feb_Code1\obj\Debug\net10.0\27Feb_Code1.sourcelink.json
+D:\Capgemini_dotnet\27Feb_Code1\obj\Debug\net10.0\27Feb_Code1.dll
+D:\Capgemini_dotnet\27Feb_Code1\obj\Debug\net10.0\refint\27Feb_Code1.dll
+D:\Capgemini_dotnet\27Feb_Code1\obj\Debug\net10.0\27Feb_Code1.pdb
+D:\Capgemini_dotnet\27Feb_Code1\obj\Debug\net10.0\27Feb_Code1.genruntimeconfig.cache
+D:\Capgemini_dotnet\27Feb_Code1\obj\Debug\net10.0\ref\27Feb_Code1.dll
