@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4e73df, #1cc88a);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: white;
+        }
+
+        .container {
+            margin-top: 100px;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        button {
+            padding: 12px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .log { background-color: #4e73df; color: white; }
+        .info { background-color: #36b9cc; color: white; }
+        .warn { background-color: #f6c23e; color: black; }
+        .error { background-color: #e74a3b; color: white; }
+
+        button:hover {
+            transform: scale(1.05);
+            opacity: 0.9;
+        }
+
+        .instruction {
+            margin-top: 30px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript Console Methods Demo</h1>
+        <button class="log" onclick="basicLog()">Log</button>
+        <button class="info" onclick="infoLog()">Info</button>
+        <button class="warn" onclick="warnLog()">Warn</button>
+        <button class="error" onclick="errorLog()">Error</button>
+        <div class="instructions">
+            Open Console and see the outputs when you click the buttons above.
+        </div>
+    </div>
+    <script>
+        function basicLog() {
+            console.log("This is a basic log message.");
+        }
+
+        function infoLog() {
+            console.info("This is an informational message.");
+        }
+
+        function warnLog() {
+            console.warn("This is a warning message.");
+        }
+
+        function errorLog() {
+            console.error("This is an error message.");
+        }
+    </script>
+</body>
+</html>
