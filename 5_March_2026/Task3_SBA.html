@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Secure Banking Page</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.warning{
+    color: red;
+    font-weight: bold;
+}
+</style>
+
+</head>
+
+<body>
+
+<h2>Secure Banking Application</h2>
+<p class="warning">Right-click is disabled on this page for security reasons.</p>
+
+<script>
+
+
+document.addEventListener("contextmenu", function(e){
+
+
+    e.preventDefault();
+
+    console.warn("Right click disabled for security");
+
+});
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Product Like Feature</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#product{
+    cursor: pointer;
+    border-radius: 10px;
+}
+</style>
+
+</head>
+<body>
+
+<h2>Product</h2>
+
+<img id="product" src="https://via.placeholder.com/200" alt="Product Image">
+
+<p>Likes: <span id="count">0</span></p>
+
+<script>
+
+let likes = 0;
+
+document.getElementById("product").addEventListener("dblclick", function(){
+
+    // Increase like counter
+    likes++;
+
+    // Update UI
+    document.getElementById("count").innerText = likes;
+
+    // Console log
+    console.log("Product liked", likes);
+
+});
+
+</script>
+
+</body>
+</html>
