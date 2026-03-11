@@ -1,0 +1,5 @@
+Ques16 : E-Commerce Price Update (map)
+Ques17 : Online Order Filtering (filter)
+Ques18 : Shopping Cart Total (reduce)
+Ques19 : Student Grade Processing (map)
+Ques20 : Pass Students Only (filter)

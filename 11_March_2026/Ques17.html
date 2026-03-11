@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Order Filtering</title>
+</head>
+<body>
+
+<h2>Orders Above ₹1000</h2>
+<p id="result"></p>
+
+<script>
+const orders = [450, 1200, 700, 3000, 1500];
+
+const bigOrders = orders.filter(order => order > 1000);
+
+document.getElementById("result").innerHTML = bigOrders;
+</script>
+
+</body>
+</html>

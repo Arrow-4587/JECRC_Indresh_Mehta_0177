@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cart Total</title>
+</head>
+<body>
+
+<h2>Shopping Cart Total</h2>
+<p id="result"></p>
+
+<script>
+const cart = [500, 1200, 800, 1500];
+
+const total = cart.reduce((sum, price) => sum + price, 0);
+
+document.getElementById("result").innerHTML = total;
+</script>
+
+</body>
+</html>
