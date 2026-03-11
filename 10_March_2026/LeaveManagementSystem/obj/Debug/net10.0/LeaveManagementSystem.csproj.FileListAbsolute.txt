@@ -1,0 +1,9 @@
+D:\Capgemini_dotnet\10_March_2026\LeaveManagementSystem\obj\Debug\net10.0\LeaveManagementSystem.csproj.AssemblyReference.cache
+D:\Capgemini_dotnet\10_March_2026\LeaveManagementSystem\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\Capgemini_dotnet\10_March_2026\LeaveManagementSystem\obj\Debug\net10.0\LeaveManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\Capgemini_dotnet\10_March_2026\LeaveManagementSystem\obj\Debug\net10.0\LeaveManagementSystem.AssemblyInfoInputs.cache
+D:\Capgemini_dotnet\10_March_2026\LeaveManagementSystem\obj\Debug\net10.0\LeaveManagementSystem.AssemblyInfo.cs
+D:\Capgemini_dotnet\10_March_2026\LeaveManagementSystem\obj\Debug\net10.0\LeaveManagementSystem.csproj.CoreCompileInputs.cache
+D:\Capgemini_dotnet\10_March_2026\LeaveManagementSystem\obj\Debug\net10.0\LeaveManagementSystem.MvcApplicationPartsAssemblyInfo.cs
+D:\Capgemini_dotnet\10_March_2026\LeaveManagementSystem\obj\Debug\net10.0\LeaveManagementSystem.MvcApplicationPartsAssemblyInfo.cache
+D:\Capgemini_dotnet\10_March_2026\LeaveManagementSystem\obj\Debug\net10.0\LeaveManagementSystem.sourcelink.json
