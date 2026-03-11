@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JWT Role Authentication Demo</title>
+</head>
+<body>
+
+<h2>Register</h2>
+
+<input type="text" id="regUsername" placeholder="Username"><br><br>
+<input type="password" id="regPassword" placeholder="Password"><br><br>
+
+<select id="regRole">
+<option value="User">User</option>
+<option value="Manager">Manager</option>
+<option value="Admin">Admin</option>
+</select><br><br>
+
+<button onclick="register()">Register</button>
+
+<p id="registerResult"></p>
+
+<hr>
+
+<h2>Login</h2>
+
+<input type="text" id="loginUsername" placeholder="Username"><br><br>
+<input type="password" id="loginPassword" placeholder="Password"><br><br>
+
+<button onclick="login()">Login</button>
+
+<button onclick="logout()">Logout</button>
+
+<p id="loginResult"></p>
+
+<hr>
+
+<h2>Dashboards</h2>
+
+<div id="adminSection" style="display:none">
+<button onclick="adminDashboard()">Admin Dashboard</button>
+</div>
+
+<div id="managerSection" style="display:none">
+<button onclick="managerDashboard()">Manager Dashboard</button>
+<button onclick="managerReports()">Manager Reports</button>
+</div>
+
+<div id="userSection" style="display:none">
+<button onclick="userDashboard()">User Dashboard</button>
+</div>
+
+<pre id="result"></pre>
+
+<script>
+
+const API="http://localhost:5029/api";
+
+// ================= REGISTER =================
+
+async function register(){
+
+const username=document.getElementById("regUsername").value;
+const password=document.getElementById("regPassword").value;
+const role=document.getElementById("regRole").value;
+
+const response=await fetch(`${API}/auth/register`,{
+method:"POST",
+headers:{
+"Content-Type":"application/json"
+},
+body:JSON.stringify({
+username:username,
+password:password,
+role:role
+})
+});
+
+const data=await response.json();
+
+document.getElementById("registerResult").innerText=JSON.stringify(data);
+
+}
+
+// ================= LOGIN =================
+
+async function login(){
+
+const username=document.getElementById("loginUsername").value;
+const password=document.getElementById("loginPassword").value;
+
+const response=await fetch(`${API}/auth/login`,{
+method:"POST",
+headers:{
+"Content-Type":"application/json"
+},
+body:JSON.stringify({
+username:username,
+password:password
+})
+});
+
+const data=await response.json();
+
+if(data.token){
+
+localStorage.setItem("jwtToken",data.token);
+
+document.getElementById("loginResult").innerText=
+"Login successful | Role: "+data.role;
+
+detectRole();
+
+}else{
+
+document.getElementById("loginResult").innerText="Login failed";
+
+}
+
+}
+
+// ================= DECODE TOKEN =================
+
+function parseJwt(token){
+
+const base64Url = token.split('.')[1];
+const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+const jsonPayload = decodeURIComponent(atob(base64).split('').map(function(c) {
+return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+}).join(''));
+
+return JSON.parse(jsonPayload);
+
+}
+
+// ================= ROLE DETECTION =================
+
+function detectRole(){
+
+const token=localStorage.getItem("jwtToken");
+
+if(!token) return;
+
+const decoded=parseJwt(token);
+
+const role=decoded["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"];
+
+document.getElementById("adminSection").style.display="none";
+document.getElementById("managerSection").style.display="none";
+document.getElementById("userSection").style.display="none";
+
+if(role==="Admin"){
+
+document.getElementById("adminSection").style.display="block";
+document.getElementById("managerSection").style.display="block";
+
+}
+
+if(role==="Manager"){
+
+document.getElementById("managerSection").style.display="block";
+
+}
+
+if(role==="User"){
+
+document.getElementById("userSection").style.display="block";
+
+}
+
+}
+
+// ================= DASHBOARD CALLS =================
+
+async function adminDashboard(){
+
+callApi("/admin/dashboard");
+
+}
+
+async function managerDashboard(){
+
+callApi("/manager/dashboard");
+
+}
+
+async function managerReports(){
+
+callApi("/manager/reports");
+
+}
+
+async function userDashboard(){
+
+callApi("/user/dashboard");
+
+}
+
+async function callApi(endpoint){
+
+const token=localStorage.getItem("jwtToken");
+
+const response=await fetch(API+endpoint,{
+headers:{
+"Authorization":`Bearer ${token}`
+}
+});
+
+const text=await response.text();
+
+document.getElementById("result").innerText=text;
+
+}
+
+// ================= LOGOUT =================
+
+function logout(){
+
+localStorage.removeItem("jwtToken");
+
+document.getElementById("loginResult").innerText="Logged out";
+
+document.getElementById("adminSection").style.display="none";
+document.getElementById("managerSection").style.display="none";
+document.getElementById("userSection").style.display="none";
+
+}
+
+// Detect role if token already exists
+detectRole();
+
+</script>
+
+</body>
+</html>
