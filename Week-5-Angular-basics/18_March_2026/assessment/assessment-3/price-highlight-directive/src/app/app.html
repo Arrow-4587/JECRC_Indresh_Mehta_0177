@@ -1,0 +1,25 @@
+<div class="container">
+  <h2>💰 Product Price Dashboard</h2>
+
+  <div class="grid">
+
+    <div class="card" [appPriceHighlight]="60000">
+      <h3>Laptop</h3>
+      <p class="price">₹60000</p>
+      <span class="tag high" *ngIf="60000 > 50000">High Value</span>
+    </div>
+
+    <div class="card" [appPriceHighlight]="30000">
+      <h3>Phone</h3>
+      <p class="price">₹30000</p>
+      <span class="tag normal" *ngIf="30000 <= 50000">Normal</span>
+    </div>
+
+    <div class="card" [appPriceHighlight]="80000">
+      <h3>Smart TV</h3>
+      <p class="price">₹80000</p>
+      <span class="tag high" *ngIf="80000 > 50000">High Value</span>
+    </div>
+
+  </div>
+</div>

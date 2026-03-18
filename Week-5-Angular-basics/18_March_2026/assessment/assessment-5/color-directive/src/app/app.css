@@ -1,0 +1,15 @@
+.container {
+  padding: 30px;
+  background: #1d53a3;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.card {
+  background: rgb(188, 58, 58);
+  padding: 15px;
+  margin: 10px auto;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}

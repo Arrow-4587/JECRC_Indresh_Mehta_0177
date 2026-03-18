@@ -1,0 +1,15 @@
+<div class="container">
+  <h2>🖱️ Click Control Directive</h2>
+
+  <button [appClickBlock]="isAllowed">
+    Click Me
+  </button>
+
+  <br /><br />
+
+  <button (click)="isAllowed = !isAllowed">
+    Toggle Permission
+  </button>
+
+  <p>Status: {{ isAllowed ? 'Allowed ' : 'Blocked ' }}</p>
+</div>

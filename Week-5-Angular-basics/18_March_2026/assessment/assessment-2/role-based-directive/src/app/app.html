@@ -1,0 +1,13 @@
+<div class="container">
+  <h2>🔐 Role Based UI</h2>
+
+  <button *appRole="'admin'">Admin Action</button>
+
+  <div class="card" *appRole="'admin'">
+    <p>Only Admin Can See This</p>
+  </div>
+
+  <div class="card" *appRole="'user'">
+    <p>User Content</p>
+  </div>
+</div>
