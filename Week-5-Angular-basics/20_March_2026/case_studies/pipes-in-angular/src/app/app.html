@@ -1,0 +1,32 @@
+<h2>Angular Pipes Demo</h2>
+
+<p>{{ today | date: 'fullDate' }}</p>
+
+<h2> 📦Order List</h2>
+
+<div class="order-card" *ngFor="let order of data$ | async">
+
+  <p>Order ID: {{ order.id }}</p>
+  <p>Product: {{ order.ProductName }}</p>
+  <p>Price: ₹{{ order.price | currency }}</p>
+  <p>Status: {{ order.status }}</p>
+
+  <hr>
+</div> 
+
+<!-- KeyValue Pipe -->
+
+<div *ngFor="let item of product | keyvalue" class = "card">
+  <p [ngStyle]="{ 'font-weight': 'bold' }">
+    {{ item.key | uppercase }}
+  </p> 
+  
+  <p [ngClass] = "{'Highlight' : item.key === 'price'}">
+    {{ item.value }}
+  </p>
+
+</div>
+
+<!-- Custome Pipe -->
+
+<p>Price: {{ product.price | customCurrency }}</p>
