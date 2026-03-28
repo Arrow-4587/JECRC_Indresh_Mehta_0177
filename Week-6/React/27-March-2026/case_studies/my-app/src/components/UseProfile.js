@@ -44,7 +44,7 @@ function UserProfile({
       
             <button onClick={onEdit}
             style={{
-              backgroundColor:'aqua',
+              backgroundColor:'',
               color:'blue',
               border:'none',
               padding:'10px 15px',

@@ -1,0 +1,76 @@
+<!-- HEADER -->
+<div class="header">
+  <div class="logo">HB</div>
+  <h2>HackerBank</h2>
+</div>
+
+<div class="container">
+
+  <!-- ADD TRANSACTION -->
+  <div class="form-card">
+    <h3>Add Transaction</h3>
+
+    <div class="form-grid">
+      <input type="date" [(ngModel)]="transaction.date" />
+
+      <input type="text" placeholder="Description"
+        [(ngModel)]="transaction.description" />
+
+      <select [(ngModel)]="transaction.type">
+        <option [value]="0">Credit</option>
+        <option [value]="1">Debit</option>
+      </select>
+
+      <input type="number" placeholder="Amount"
+        [(ngModel)]="transaction.amount" />
+
+      <input type="text" placeholder="Balance ($1234.00)"
+        [(ngModel)]="transaction.balance" />
+
+      <button class="add-btn" (click)="addTransaction()">
+        Add
+      </button>
+    </div>
+  </div>
+
+  <!-- FILTER -->
+  <div class="filter-section">
+    <input type="date" [(ngModel)]="selectedDate" />
+
+    <button class="filter-btn" (click)="filterTransactions()">
+      Filter
+    </button>
+
+    <button class="show-btn" (click)="showAll()">
+      Show All
+    </button>
+  </div>
+
+  <!-- TABLE -->
+  <div class="table-card">
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Description</th>
+          <th>Type</th>
+          <th class="sortable" (click)="sortTransactions()">
+            Amount ($)
+          </th>
+          <th>Available Balance</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr *ngFor="let transaction of transactions">
+          <td>{{ transaction.date }}</td>
+          <td>{{ transaction.description }}</td>
+          <td>{{ getTypeText(transaction.type) }}</td>
+          <td>{{ transaction.amount }}</td>
+          <td>{{ transaction.balance }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
