@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import Counter from './components/Counter'
+import StatevsPropsDemo from './components/StatevsPropsDemo';
+import TemperatureConverter from './components/TemperatureConverter';
+import ShoppingCart from './components/ShoppingCart';
 
 function App() {
   return (
@@ -10,7 +13,11 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p> */}
-        <Counter/>
+        {/* <Counter/> */}
+        <ShoppingCart/>
+        {/* <TemperatureConverter/> */}
+        {/* <Counter/>
+        <StatevsPropsDemo/> */}
         {/* <a
           className="App-link"
           href="https://reactjs.org"
