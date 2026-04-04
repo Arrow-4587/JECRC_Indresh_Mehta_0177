@@ -1,0 +1,154 @@
+.bill-creator {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.bill-creator h1 {
+  color: var(--primary);
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.bill-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.invoice-section {
+  background: var(--bg-secondary);
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: var(--shadow);
+  border: 2px solid var(--accent);
+}
+
+.invoice-header {
+  background: var(--primary);
+  color: white;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.invoice-header h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.invoice-date {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.bill-actions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.btn-save, .btn-draft, .btn-print, .btn-pdf, .btn-csv, .btn-reset {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.btn-save {
+  background: var(--primary);
+  color: white;
+  grid-column: 1;
+}
+
+.btn-save:hover:not(:disabled) {
+  background: var(--primary-dark);
+}
+
+.btn-draft {
+  background: var(--secondary);
+  color: white;
+  grid-column: 2;
+}
+
+.btn-draft:hover:not(:disabled) {
+  background: #047857;
+}
+
+.btn-print {
+  background: #3b82f6;
+  color: white;
+  grid-column: 1;
+}
+
+.btn-print:hover:not(:disabled) {
+  background: #2563eb;
+}
+
+.btn-pdf {
+  background: #f59e0b;
+  color: white;
+  grid-column: 2;
+}
+
+.btn-pdf:hover:not(:disabled) {
+  background: #d97706;
+}
+
+.btn-csv {
+  background: #10b981;
+  color: white;
+  grid-column: 1;
+}
+
+.btn-csv:hover:not(:disabled) {
+  background: #059669;
+}
+
+.btn-reset {
+  background-color: var(--text-secondary);
+  color: white;
+  grid-column: 2;
+}
+
+.btn-reset:hover {
+  background-color: var(--text-primary);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .bill-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .bill-actions {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .btn-save, .btn-draft, .btn-print, .btn-pdf, .btn-csv, .btn-reset {
+    grid-column: auto;
+  }
+
+  .invoice-section {
+    padding: 1rem;
+  }
+}
