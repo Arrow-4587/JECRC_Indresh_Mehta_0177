@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CapG\\ExceptionHandling\\ExceptionHandling\\ExceptionHandling.csproj": {}
+    "D:\\Capgemini_dotnet\\19_Feb_2026\\ExceptionHandling\\ExceptionHandling\\ExceptionHandling.csproj": {}
   },
   "projects": {
-    "E:\\CapG\\ExceptionHandling\\ExceptionHandling\\ExceptionHandling.csproj": {
+    "D:\\Capgemini_dotnet\\19_Feb_2026\\ExceptionHandling\\ExceptionHandling\\ExceptionHandling.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CapG\\ExceptionHandling\\ExceptionHandling\\ExceptionHandling.csproj",
+        "projectUniqueName": "D:\\Capgemini_dotnet\\19_Feb_2026\\ExceptionHandling\\ExceptionHandling\\ExceptionHandling.csproj",
         "projectName": "ExceptionHandling",
-        "projectPath": "E:\\CapG\\ExceptionHandling\\ExceptionHandling\\ExceptionHandling.csproj",
-        "packagesPath": "C:\\Users\\my msi\\.nuget\\packages\\",
-        "outputPath": "E:\\CapG\\ExceptionHandling\\ExceptionHandling\\obj\\",
+        "projectPath": "D:\\Capgemini_dotnet\\19_Feb_2026\\ExceptionHandling\\ExceptionHandling\\ExceptionHandling.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Capgemini_dotnet\\19_Feb_2026\\ExceptionHandling\\ExceptionHandling\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\my msi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -65,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
