@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Capgemini_dotnet\\Week_8\\10_April_2026\\assessment\\Songs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF4C77C4-A55C-4FA5-88C7-4C48D982F36F}|Songs.csproj|d:\\capgemini_dotnet\\week_8\\10_april_2026\\assessment\\songs\\models\\dto\\createsongs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF4C77C4-A55C-4FA5-88C7-4C48D982F36F}|Songs.csproj|solutionrelative:models\\dto\\createsongs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF4C77C4-A55C-4FA5-88C7-4C48D982F36F}|Songs.csproj|d:\\capgemini_dotnet\\week_8\\10_april_2026\\assessment\\songs\\controllers\\songscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF4C77C4-A55C-4FA5-88C7-4C48D982F36F}|Songs.csproj|solutionrelative:controllers\\songscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF4C77C4-A55C-4FA5-88C7-4C48D982F36F}|Songs.csproj|d:\\capgemini_dotnet\\week_8\\10_april_2026\\assessment\\songs\\models\\entity\\songs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF4C77C4-A55C-4FA5-88C7-4C48D982F36F}|Songs.csproj|solutionrelative:models\\entity\\songs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF4C77C4-A55C-4FA5-88C7-4C48D982F36F}|Songs.csproj|d:\\capgemini_dotnet\\week_8\\10_april_2026\\assessment\\songs\\models\\dto\\songresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF4C77C4-A55C-4FA5-88C7-4C48D982F36F}|Songs.csproj|solutionrelative:models\\dto\\songresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SongsController.cs",
+              "DocumentMoniker": "D:\\Capgemini_dotnet\\Week_8\\10_April_2026\\assessment\\Songs\\Controllers\\SongsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SongsController.cs",
+              "ToolTip": "D:\\Capgemini_dotnet\\Week_8\\10_April_2026\\assessment\\Songs\\Controllers\\SongsController.cs",
+              "RelativeToolTip": "Controllers\\SongsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T09:16:04.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateSongs.cs",
+              "DocumentMoniker": "D:\\Capgemini_dotnet\\Week_8\\10_April_2026\\assessment\\Songs\\Models\\dto\\CreateSongs.cs",
+              "RelativeDocumentMoniker": "Models\\dto\\CreateSongs.cs",
+              "ToolTip": "D:\\Capgemini_dotnet\\Week_8\\10_April_2026\\assessment\\Songs\\Models\\dto\\CreateSongs.cs",
+              "RelativeToolTip": "Models\\dto\\CreateSongs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T09:07:15.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SongResponse.cs",
+              "DocumentMoniker": "D:\\Capgemini_dotnet\\Week_8\\10_April_2026\\assessment\\Songs\\Models\\dto\\SongResponse.cs",
+              "RelativeDocumentMoniker": "Models\\dto\\SongResponse.cs",
+              "ToolTip": "D:\\Capgemini_dotnet\\Week_8\\10_April_2026\\assessment\\Songs\\Models\\dto\\SongResponse.cs",
+              "RelativeToolTip": "Models\\dto\\SongResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T09:04:29.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Songs.cs",
+              "DocumentMoniker": "D:\\Capgemini_dotnet\\Week_8\\10_April_2026\\assessment\\Songs\\Models\\Entity\\Songs.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\Songs.cs",
+              "ToolTip": "D:\\Capgemini_dotnet\\Week_8\\10_April_2026\\assessment\\Songs\\Models\\Entity\\Songs.cs",
+              "RelativeToolTip": "Models\\Entity\\Songs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T08:52:00.881Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

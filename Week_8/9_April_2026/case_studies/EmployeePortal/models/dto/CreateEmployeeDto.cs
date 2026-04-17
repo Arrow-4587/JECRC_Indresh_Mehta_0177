@@ -33,6 +33,6 @@ namespace EmployeePortal.models.dto
         public decimal salary { get; set; }
         
         [StringLength(50)]
-        public string address { get; set; }
+        public string Address { get; set; }
     }
 }
