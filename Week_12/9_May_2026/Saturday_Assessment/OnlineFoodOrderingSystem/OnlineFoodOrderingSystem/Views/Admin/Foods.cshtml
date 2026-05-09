@@ -1,0 +1,69 @@
+@model IEnumerable<OnlineFoodOrderingSystem.Models.FoodItem>
+
+<h1 class="page-title mb-4">
+    Food Management
+</h1>
+
+<a asp-action="CreateFood"
+   class="btn btn-primary mb-4">
+
+    Add Food
+
+</a>
+
+<table class="table table-bordered">
+
+    <thead class="table-dark">
+
+        <tr>
+
+            <th>Name</th>
+
+            <th>Price</th>
+
+            <th>Category</th>
+
+            <th>Actions</th>
+
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>@item.Name</td>
+
+                <td>₹@item.Price</td>
+
+                <td>@item.Category?.CategoryName</td>
+
+                <td>
+
+                    <a asp-action="EditFood"
+                       asp-route-id="@item.FoodId"
+                       class="btn btn-warning btn-sm">
+
+                        Edit
+
+                    </a>
+
+                    <a asp-action="DeleteFood"
+                       asp-route-id="@item.FoodId"
+                       class="btn btn-danger btn-sm">
+
+                        Delete
+
+                    </a>
+
+                </td>
+
+            </tr>
+        }
+
+    </tbody>
+
+</table>

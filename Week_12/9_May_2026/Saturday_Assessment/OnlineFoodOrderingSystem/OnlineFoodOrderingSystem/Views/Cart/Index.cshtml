@@ -1,0 +1,70 @@
+@model List<OnlineFoodOrderingSystem.Models.Cart>
+
+<h1 class="page-title mb-4">
+    Shopping Cart
+</h1>
+
+<table class="table table-bordered table-striped">
+
+    <thead>
+
+        <tr>
+
+            <th>Food</th>
+
+            <th>Quantity</th>
+
+            <th>Action</th>
+
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @item.FoodItem?.Name
+                </td>
+
+                <td>
+                    @item.Quantity
+                </td>
+
+                <td>
+
+                    <a asp-action="Remove"
+                       asp-route-id="@item.CartId"
+                       class="btn btn-danger">
+
+                        Remove
+
+                    </a>
+
+                </td>
+
+            </tr>
+        }
+
+    </tbody>
+
+</table>
+
+<div class="cart-total-box">
+
+    <h4>
+        Ready to place your order?
+    </h4>
+
+    <a asp-controller="Order"
+       asp-action="Checkout"
+       class="btn btn-success mt-3">
+
+        Proceed To Checkout
+
+    </a>
+
+</div>

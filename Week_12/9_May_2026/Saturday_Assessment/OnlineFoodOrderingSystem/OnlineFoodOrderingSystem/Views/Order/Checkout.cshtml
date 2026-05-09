@@ -1,0 +1,41 @@
+<h1 class="page-title mb-4">
+    Checkout
+</h1>
+
+<div class="checkout-box">
+
+    <form asp-action="PlaceOrder"
+          method="post">
+
+        <div class="mb-3">
+
+            <label class="form-label">
+                Delivery Address
+            </label>
+
+            <textarea class="form-control"
+                      rows="4"></textarea>
+
+        </div>
+
+        <div class="mb-3">
+
+            <label class="form-label">
+                Phone Number
+            </label>
+
+            <input type="text"
+                   class="form-control" />
+
+        </div>
+
+        <button type="submit"
+                class="btn btn-primary">
+
+            Place Order
+
+        </button>
+
+    </form>
+
+</div>

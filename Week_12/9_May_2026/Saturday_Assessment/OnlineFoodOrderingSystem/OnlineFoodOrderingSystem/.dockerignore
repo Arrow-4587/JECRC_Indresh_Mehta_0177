@@ -1,0 +1,14 @@
+bin
+obj
+.vs
+.git
+*.user
+*.suo
+*.log
+*.vspscc
+*.vssscc
+*.dbmdl
+*.pdb
+*.cache
+.Dockerfile.swp
+docker-compose*.yml
