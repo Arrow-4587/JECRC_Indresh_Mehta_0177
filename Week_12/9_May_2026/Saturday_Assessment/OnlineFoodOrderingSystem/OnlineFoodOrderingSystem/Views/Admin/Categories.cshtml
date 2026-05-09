@@ -1,0 +1,39 @@
+@model IEnumerable<OnlineFoodOrderingSystem.Models.Category>
+
+<h1 class="page-title mb-4">
+    Categories
+</h1>
+
+<a asp-action="CreateCategory"
+   class="btn btn-primary mb-4">
+
+    Add Category
+
+</a>
+
+<table class="table table-bordered">
+
+    <thead class="table-dark">
+
+        <tr>
+
+            <th>Category Name</th>
+
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>@item.CategoryName</td>
+
+            </tr>
+        }
+
+    </tbody>
+
+</table>

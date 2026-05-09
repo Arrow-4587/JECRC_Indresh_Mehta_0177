@@ -1,0 +1,82 @@
+@model OnlineFoodOrderingSystem.Models.FoodItem
+
+<h1 class="page-title mb-4">
+    Add Food Item
+</h1>
+
+<form asp-action="EditFood"
+      method="post">
+
+    <div class="mb-3">
+
+        <label>Name</label>
+
+        <input asp-for="Name"
+               class="form-control" />
+
+    </div>
+
+    <div class="mb-3">
+
+        <label>Description</label>
+
+        <textarea asp-for="Description"
+                  class="form-control"></textarea>
+
+    </div>
+
+    <div class="mb-3">
+
+        <label>Price</label>
+
+        <input asp-for="Price"
+               class="form-control" />
+
+    </div>
+
+    <div class="mb-3">
+
+        <label>Image URL</label>
+
+        <input asp-for="ImageUrl"
+               class="form-control" />
+
+    </div>
+
+    <div class="mb-3">
+
+        <label>Category</label>
+
+        <select asp-for="CategoryId"
+                class="form-control"
+                asp-items="ViewBag.Categories">
+
+            <option value="">
+                Select Category
+            </option>
+
+        </select>
+
+    </div>
+
+    <div class="form-check mb-3">
+
+        <input asp-for="IsAvailable"
+               class="form-check-input" />
+
+        <label class="form-check-label">
+
+            Available
+
+        </label>
+
+    </div>
+
+    <button type="submit"
+            class="btn btn-success">
+
+        Update Food
+
+    </button>
+
+</form>

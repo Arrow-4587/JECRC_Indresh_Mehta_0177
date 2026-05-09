@@ -1,0 +1,19 @@
+
+services:
+
+  webapp:
+    build: .
+    ports:
+      - "8088:88"
+    depends_on:
+      - sqlserver
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=FoodDb;User Id=sa;Password=YourStrong@Pass123;
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=YourStrong@Pass123
+    ports:
+      - "1433:1433"
