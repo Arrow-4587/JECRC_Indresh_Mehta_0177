@@ -27,9 +27,9 @@ if (!app.Environment.IsDevelopment())
     app.UseExceptionHandler("/Home/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
+    app.UseHttpsRedirection();
 }
 
-app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 
@@ -49,15 +49,8 @@ using (var scope = app.Services.CreateScope())
     var context = scope.ServiceProvider
         .GetRequiredService<ApplicationDbContext>();
 
-    if (!context.Categories.Any())
-    {
-        context.Categories.Add(new Category
-        {
-            CategoryName = "Pizza"
-        });
-
-        context.SaveChanges();
-    }
+    context.Database.Migrate();
+    SeedData.Initialize(context);
 }
 
 app.Run();
