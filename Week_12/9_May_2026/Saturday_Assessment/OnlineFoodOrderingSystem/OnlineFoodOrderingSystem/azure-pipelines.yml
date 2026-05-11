@@ -1,0 +1,18 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'windows-latest'
+
+steps:
+
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: '8.0.x'
+
+- script: dotnet restore OnlineFoodOrderingSystem.csproj
+  displayName: 'Restore Packages'
+
+- script: dotnet build OnlineFoodOrderingSystem.csproj --configuration Release
+  displayName: 'Build Project'
